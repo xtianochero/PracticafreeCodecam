@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>freeCodeCamp</title>
+    <title>Practica freeCodeCamp</title>
 </head>
 
 <body>
@@ -20,24 +20,25 @@
         </a>
         <hr>
         <h3>Lista de The Simpsond</h3>
-        <p>Personales <em>principales</em> de <strong>los Simpsons</strong> :</p>
+        <div>
+            <p>Personales <em>principales</em> de <strong>los Simpsons</strong> :</p>
+            <ul>
+                <li>Homero</li>
+                <li>Marge</li>
+                <li>Bart</li>
+                <li>Lisa</li>
+                <li>Magie</li>
+            </ul>
+            <img src="./assets/img/bart.png" alt="Bart" width="250" height="300">
 
-        <ul>
-            <li>Homero</li>
-            <li>Marge</li>
-            <li>Bart</li>
-            <li>Lisa</li>
-            <li>Magie</li>
-        </ul>
-        <img src="./assets/img/bart.png" alt="Bart" width="250" height="300">
-        
-        <p>Personajes segundarios de los Simpsons</p>
-        <ol>
-            <li>Moe</li>
-            <li><s>Sr. Beands</s></li>
-            <li>Apu</li>
-            <li>Ayudante de Santa</li>
-        </ol>
+            <p>Personajes segundarios de los Simpsons</p>
+            <ol>
+                <li>Moe</li>
+                <li><s>Sr. Beands</s></li>
+                <li>Apu</li>
+                <li>Ayudante de Santa</li>
+            </ol>
+        </div>
         <img src="./assets/img/allthesimpsons.png" alt="All The Simpsons">
 
         <form action="">
@@ -47,7 +48,7 @@
             </label><br>
             <label for="opcion2">
                 <input type="radio" id="opcion2" name="opciones" value="opcion2">Opcion 2
-            </label><br>
+            </label><br><br>
             <!-- casilla de verificacion -->
             <label for="checkbox1">
                 <input type="checkbox" name="checkboxs" id="checkbox1" value="checkbox1" checked>Check box 1
@@ -61,10 +62,15 @@
 
             <!-- Texto y boton enviar -->
             <input type="text" placeholder="Ingresa el nombre del personaje" required><br>
-            <button type="submit" >ENVIAR</button>
+            <button type="submit">ENVIAR</button>
         </form>
-
     </main>
+    <footer>
+        <hr>
+        <p>
+            <small> Derechos de autor - <a href="#">Chero</a></small>
+        </p>
+    </footer>
 </body>
 
 </html>
